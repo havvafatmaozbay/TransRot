@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D9794CE9285A5B1F00665550 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9794CE8285A5B1F00665550 /* main.cpp */; };
+		D9794CF1285A5B4D00665550 /* TransRot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9794CEF285A5B4D00665550 /* TransRot.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D9794CE5285A5B1F00665550 /* TransRot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TransRot; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9794CE8285A5B1F00665550 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D9794CEF285A5B4D00665550 /* TransRot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TransRot.cpp; sourceTree = "<group>"; };
+		D9794CF0285A5B4D00665550 /* TransRot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TransRot.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D9794CE8285A5B1F00665550 /* main.cpp */,
+				D9794CEF285A5B4D00665550 /* TransRot.cpp */,
+				D9794CF0285A5B4D00665550 /* TransRot.hpp */,
 			);
 			path = TransRot;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9794CF1285A5B4D00665550 /* TransRot.cpp in Sources */,
 				D9794CE9285A5B1F00665550 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
